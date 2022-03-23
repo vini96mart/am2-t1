@@ -16,7 +16,7 @@ Os atributos são:
 
 - Peso à direita (r_weight): 1, 2, 3, 4 e 5
 
-= Distância à direita (r_dist): 1, 2, 3, 4 e 5
+- Distância à direita (r_dist): 1, 2, 3, 4 e 5
 
 - E, por fim, a classe (bal_class), que pode ter os seguintes valores: L (esquerda), B (balanceada) e R (direita).
 
