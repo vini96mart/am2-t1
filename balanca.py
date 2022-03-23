@@ -99,9 +99,9 @@ gs_modelo_dataset3.best_estimator_
 
 #Classificando pelo nosso modelo
 classificador = StackingClassifier(estimators=[('dtc',
-                                DecisionTreeClassifier(criterion='entropy')),
-                               ('knn', KNeighborsClassifier(n_neighbors=1)),
-                               ('svm', SVC(C=0.1))],
+                                DecisionTreeClassifier(criterion='entropy')),       #Aqui, estamos utilizando três algoritmos de aprendizado
+                               ('knn', KNeighborsClassifier(n_neighbors=1)),        #supervisionado para a multiclassificação, sendo eles
+                               ('svm', SVC(C=0.1))],                                #árvore de decisão, k-médias, e Source Vector Machine (SVM).
                    final_estimator=RidgeClassifier())
 classificador.fit(X_train_scaler, Y_train)
 Y_pred = classificador.predict(pd.DataFrame(encoder.transform(X_test).toarray()))
