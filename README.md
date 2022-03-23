@@ -4,7 +4,7 @@ Alunos:
 - Júlia Sato
 - Vinicius Martins
 
-Este repositório conta com a minha parte do trabalho 1 da disciplina de Aprendizado de Máquina 2, no qual foi elaborado um algoritmo no esquema ensemble para adquirir a melhor acurácia em três datasets diferentes, e compará-los com um algoritmo de classificação já existente na biblioteca scikit-learn, sendo este o AdaBoost.
+Este repositório conta com a minha parte do trabalho 1 da disciplina de Aprendizado de Máquina 2, no qual foi elaborado um algoritmo no esquema ensemble para adquirir a melhor acurácia em três datasets diferentes, e compará-lo com um algoritmo de classificação já existente na biblioteca scikit-learn, sendo este o AdaBoost.
 
 O dataset apresentado nesta parte foi gerado para modelar resultados experimentais. Cada exemplo é classificado como tendo a balance scale tip à direita, à esquerda ou balanceada.
 
